@@ -82,7 +82,7 @@ WebService::Prismatic::InterestGraph - identify topics in web page or text
 =head1 DESCRIPTION
 
 This module provides a simple interface to the Prismatic Interface Graph API,
-which is an alpha service provided by L<prismatic.com|http://prismatic.com>.
+which is an alpha service provided by L<getprismatic.com|http://getprismatic.com>.
 It takes a piece of text and returns a number of tags, each of which
 identifies a topic and a score for how likely the text includes that topic.
 The text can either be specified via a URL, or passed as a scalar.
