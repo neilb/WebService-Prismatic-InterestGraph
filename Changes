@@ -1,5 +1,8 @@
 Revision history for Perl module WebService::Prismatic::InterestGraph
 
+0.02 2015-02-06 NEILB
+    - I had used // but then expected it to work on Perl 5.8.9
+
 0.01 2015-02-05 NEILB
     - First release to CPAN, following the alpha announcement of the API
 

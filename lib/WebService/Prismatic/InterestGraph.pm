@@ -39,7 +39,7 @@ sub tag_text
     my ($self, $text, $title) = @_;
     my $params = { body => $text };
 
-    $params->{title} = $title // '';
+    $params->{title} = defined($title) ? $title :'';
     return $self->_post_tag_request('text/topic', $params);
 }
 
