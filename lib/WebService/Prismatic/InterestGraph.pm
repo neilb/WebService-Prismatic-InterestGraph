@@ -72,7 +72,7 @@ WebService::Prismatic::InterestGraph - identify topics in web page or text
 =head1 SYNOPSIS
 
  use WebService::Prismatic::InterestGraph;
- my $ig = WebService::Prismatic::InterestGraph->new( api_key => $key );
+ my $ig = WebService::Prismatic::InterestGraph->new( api_token => $key );
  my @tags = $ig->tag_url('http://perl.org');
 
  foreach my $tag (@tags) {
@@ -100,11 +100,11 @@ you might be interested in reading.
 
 =head2 new
 
-The constructor takes an C<api_key>:
+The constructor takes an C<api_token>:
 
  use WebService::Prismatic::InterestGraph;
 
- my $ig = WebService::Prismatic::InterestGraph->new( api_key => $key );
+ my $ig = WebService::Prismatic::InterestGraph->new( api_token => $key );
 
 You can also pass an HTTP user agent with the C<ua> parameter,
 but it pretty much has to be an instance of L<HTTP::Tiny>.
